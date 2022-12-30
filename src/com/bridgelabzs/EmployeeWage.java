@@ -13,7 +13,7 @@ public class EmployeeWage {
         int dailyWage = 0;
         if (employeeCheck == IS_FULL_TIME) {
             dailyWage = WAGE_PER_HOUR * FULL_DAY_HOUR;
-            System.out.println("Employee is Present");
+            System.out.println("Employee is Full-time");
         } else if(employeeCheck == IS_PART_TIME){
             dailyWage = WAGE_PER_HOUR * PART_TIME_HOUR;
             System.out.println("Employee is Part-time");
