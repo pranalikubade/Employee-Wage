@@ -8,7 +8,8 @@ public class EmployeeWage {
     static final int IS_PART_TIME = 1;
     static final int WORKING_DAYS_PER_MONTH = 20;
     static final int MAX_WORKING_HOUR = 100;
-    public static void main(String[] args) {
+
+    static void Wage() {
         System.out.println("Welcome to employee wage");
         int dayCount = 1;
         int totalWage = 0;
@@ -39,5 +40,8 @@ public class EmployeeWage {
         }
         System.out.println("Total Wage = " + totalWage);
         System.out.println("Total Working Hours = " + totalhours);
+    }
+    public static void main(String[] args) {
+        Wage();
     }
 }
